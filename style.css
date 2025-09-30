@@ -1,0 +1,108 @@
+body{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    text-align:center;
+    padding: 40px;
+    min-height: 100vh
+     
+}
+h1{
+    color: beige;
+    font-size: 36px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    height: fit-content;
+}
+p{
+  color:bisque;
+  font-size: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.6;
+}
+img{
+    width: 300px;
+  border-radius: 20px;
+  box-shadow: 4px 8px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+ul{
+ 
+  margin-left: 150px;
+  margin-top: 100px;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  list-style-type:circle; 
+  padding-left:left;     
+  color:bisque;          
+  font-size: 20px;
+  font-family:'Courier New', Courier, monospace ;
+}
+th,td{
+    border:2px solid beige;
+    padding: 10px;
+    color:bisque;
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.table {
+    position: absolute;
+    right: 190px;
+    bottom: 109px;
+}
+ 
+label {
+    color: rgb(230, 190, 141);
+    text-align: left;
+    margin-right: 900px;
+  margin-top: 10px;
+
+  
+}
+
+form {
+    display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: beige;
+  }
+  
+  fieldset {
+    width: 250px; 
+  padding: 20px;
+  border: 2px solid bisque;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);  
+  text-align: left;
+  }
+  
+  legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select {
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+  }
+  
