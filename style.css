@@ -67,20 +67,41 @@ label {
   
 }
 
+
 form {
     display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: -10px;
   color: beige;
+  flex-direction: column;
+  position: relative;
+  }
+  .ville, .envoyer {
+    position: absolute;
+    right: 150px;
+  }
+  
+  .ville {
+    top: 60px;    
+  }
+  
+  .envoyer {
+    top: 100px;     
+  }
+  .form-row {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
   }
   
   fieldset {
-    width: 250px; 
-  padding: 20px;
+    width: 90px; 
+  padding: 5px;
   border: 2px solid bisque;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.05);  
   text-align: left;
+  margin: auto;
   }
   
   legend {
@@ -91,8 +112,8 @@ form {
   
   .form-group {
     display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
+  flex-direction: column;
+  flex: 1;
   }
   
   label {
