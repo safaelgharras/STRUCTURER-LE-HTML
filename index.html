@@ -2,56 +2,86 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Document</title>
 </head>
-<body background="image/background.jpg" >
-    <h1>SAFA.CAFTAN </h1>
+<body>
+  <header>
+    <h1>SAFA.CAFTAN</h1>
     <p>Soyez les bienvenues.</p>
-    <img src="image/CAFTAN.jpg" width="400" alt="CAFTAN MAROCAIN" class="image">
-    <ul>
+  </header>
+
+  <main>
+    <section>
+      <h2>Présentation</h2>
+      <img src="image/CAFTAN.jpg" width="400" alt="CAFTAN MAROCAIN" class="image" >
+    </section>
+
+    <section>
+      <h2>Nos avantages</h2>
+      <ul>
         <li>Qualité</li>
         <li>Multiple choix</li>
         <li>Multiple couleurs</li>
       </ul>
-      <table cellspacing="0" class="table">
-        <tr>
-          <th>Taille</th>
-          <th>longueur</th>
-        </tr>
-        <tr>
-          <td>S</td>
-          <td>1,50cm</td>
-        </tr>
-        <tr>
-          <td>M</td>
-          <td>1,60cm</td>
-        </tr>
-        <tr>
+    </section>
+
+    <div class="image-table-container">
+      <table>
+        <caption>Tailles et longueurs</caption>
+        <thead>
+          <tr>
+            <th>Taille</th>
+            <th>Longueur</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>S</td>
+            <td>1,50cm</td>
+          </tr>
+          <tr>
+            <td>M</td>
+            <td>1,60cm</td>
+          </tr>
+          <tr>
             <td>L</td>
             <td>1,70cm</td>
           </tr>
+        </tbody>
       </table>
+    </div>
+
+    <section>
+      <h2>Contactez-nous</h2>
       <form action="#" method="post" class="form">
         <fieldset>
           <legend>Contact</legend>
           <label for="tel">Téléphone :</label>
-          <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" title="10 chiffres attendus" aria-label="Numéro de téléphone"> <br>
-          <label for="nom">Nom:</label>
-          <input type="text" id="nom" name="nom" placeholder="" aria-label="Nom complet" required> <br>
+          <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" title="10 chiffres attendus" aria-label="Numéro de téléphone" required ><br />
+          
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom" aria-label="Nom complet" required ><br >
+          
           <label for="email">Email :</label>
-          <input type="email" id="email" name="email" placeholder="" aria-label="Adresse e-mail" required> <br>
-          <label for="ville">ville :</label>
+          <input type="email" id="email" name="email" aria-label="Adresse e-mail" required ><br >
+          
+          <label for="ville">Ville :</label>
           <select id="ville" name="ville" class="ville">
             <option>Tanger</option>
             <option>Tetouane</option>
-            <option>Larache</option> 
+            <option>Larache</option>
+          </select>
           
-          
-        </select>
-        <input type="Submit" value="Envoyer" class="envoyer">
+          <input type="submit" value="Envoyer" class="envoyer" >
         </fieldset>
       </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Safa.Caftan - Tous droits réservés</p>
+  </footer>
 </body>
 </html>
