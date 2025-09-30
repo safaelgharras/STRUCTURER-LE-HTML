@@ -33,9 +33,9 @@ img{
 ul{
  
   margin-left: 150px;
-  margin-top: 100px;
+  margin-top: 150px;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0;
   transform: translateY(-50%);
   list-style-type:circle; 
@@ -55,53 +55,35 @@ th,td{
 .table {
     position: absolute;
     right: 190px;
-    bottom: 109px;
+    bottom: 170px;
 }
  
 label {
-    color: rgb(230, 190, 141);
-    text-align: left;
-    margin-right: 900px;
-  margin-top: 10px;
-
-  
+   color: beige;
+   padding: 5px;
+   display: inline-block;
 }
 
 
 form {
-    display: flex;
+  display: flex;
   justify-content: center;
   margin-top: -10px;
   color: beige;
   flex-direction: column;
   position: relative;
   }
-  .ville, .envoyer {
-    position: absolute;
-    right: 150px;
-  }
-  
-  .ville {
-    top: 60px;    
-  }
-  
-  .envoyer {
-    top: 100px;     
-  }
-  .form-row {
-    display: flex;
-    justify-content: space-between; 
-    gap: 20px;
-  }
   
   fieldset {
-    width: 90px; 
+  width: 90px; 
   padding: 5px;
   border: 2px solid bisque;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.05);  
   text-align: left;
-  margin: auto;
+  margin-left:100px;
+  
+  margin-top: -150px;
   }
   
   legend {
@@ -125,5 +107,30 @@ form {
     padding: 8px;
     border: 1px solid #aaa;
     border-radius: 4px;
+  }
+
+
+  input[type="text" ],
+  input[type="email"],
+  textarea,
+  select {
+     width: 400px;
+     padding: 10px;
+     margin-top: 5px;
+     margin-bottom: 15px;
+     border: 2px solid #ccc;
+     border-radius: 8px;
+     font-size: 16px;
+     background-color: beige;
+  }
+  input[type="submit"] {
+    background-color:beige;
+    color: rgb(85, 5, 5);
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 16px;
   }
   
